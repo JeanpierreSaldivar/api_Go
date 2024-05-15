@@ -9,6 +9,6 @@ import (
 //Gerar va a retornanr un router con las rutas configuradas
 func Gerar() *mux.Router {
 	r:= mux.NewRouter()
-	
+
 	return rotas.Configurar(r)
 }
